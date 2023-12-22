@@ -22,6 +22,7 @@
     padding: 0 7.5rem;
     font-size: 4rem;
     display: flex;
+    line-height: 1;
     align-items: center;
 }
 
@@ -39,6 +40,7 @@
     .container__title {
         padding: 0 1rem;
         font-size: 2rem;
+        text-align: center;
     }
 
     .container__content {
