@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    border-radius: 24px;
+    background-color: var(--medium-blue);
+    color: var(--white);
+    padding: 0.75rem 1.5rem;
+    line-height: 1.125rem;
+    border: none;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    border: 3px solid var(--medium-blue);
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 3px solid var(--medium-blue);
+    color: var(--medium-blue);
+}
+
+.button.lg {
+    padding: 1.5rem 2.25rem;
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+}

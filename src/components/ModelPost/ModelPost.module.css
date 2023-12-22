@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+}
+
+.container__picture,
+.container__title {
+    height: 204px;
+}
+
+.container__picture {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+}
+
+.container__title {
+    font-family: var(--secundary-font);
+    padding: 0 7.5rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.container__content {
+    padding: 2.5rem 7.5rem 4.5rem;
+}
+
+@media (max-width: 744px) {
+
+    .container__picture,
+    .container__title {
+        height: 104px;
+    }
+
+    .container__title {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+
+    .container__content {
+        padding: 2rem 1rem 1.5rem;
+    }
+}

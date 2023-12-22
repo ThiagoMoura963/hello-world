@@ -1,0 +1,122 @@
+.container {
+    position: relative;
+    text-align: center;
+    height: 35rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 0 1.5rem 6.5rem;
+}
+
+.container__error404 {
+    display: block;
+    font-size: 6rem;
+    color: var(--medium-blue);
+    font-weight: 700;
+    font-family: var(--secundary-font);
+    margin-bottom: 2rem;
+}
+
+.container__title {
+    font-family: var(--secundary-font);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container__text {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.container__picture {
+    position: absolute;
+    height: 25vw;
+    bottom: calc(-25vw * 0.5);
+}
+
+.whiteSpace {
+    height: 40vh;
+}
+
+.container__buttonContainer {
+    text-align: start;
+    margin-top: 3.5rem;
+    margin-left: 30vw;
+}
+
+/* .button {
+    width: 11rem;
+    height: 4rem; 
+    font-size: 1.5rem;
+    padding: 24px 59px;
+    border-radius: 24px; 
+    color: var(--white);
+    background-color: var(--medium-blue);
+    border: 3px solid var(--medium-blue);
+    transition: .2s all ease-in-out; 
+} */
+
+/* .button:hover {
+    background-color: transparent;
+    border: 3px solid var(--medium-blue);
+} */
+
+@media screen and (max-width: 1100px) {
+    .container__error404 {
+        margin-bottom: 2.25rem;
+    }
+
+    .buttonContainer{
+        margin-top: 2.75rem;
+        margin-left: 15vw;
+    }
+
+    .container__picture {
+        height: 50vw;
+        bottom: calc(-50vw * 0.65);
+        left: 40vw;
+    }
+    
+    .whiteSpace {
+        height: 53vw;
+    }
+
+}
+
+@media screen and (max-width: 744px) {
+    .container {
+        padding: 3rem 1rem 17rem;
+    }
+    
+    .container__error404 {
+        font-size: 4rem;
+    }
+    
+    .container__title {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+
+    .container__buttonContainer {
+        margin: 2.5rem 0 0;
+        text-align: center;
+    }
+    
+    .container__text {
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+    }
+    
+    .container__picture {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        height: 50vw;
+        bottom: calc(-94vw * 0.3);
+    }
+
+    .whiteSpace {
+        height: calc(94vw * 0.5);
+    }
+}
+

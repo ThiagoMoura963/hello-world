@@ -1,0 +1,30 @@
+.post {
+    width: 282px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    transition: .2s all ease-in-out;
+}
+
+.post:hover {
+    transform: translate(0, -1rem);
+}
+
+.post__image {
+    width: 100%;
+}
+
+.post__title {
+    font-family: var(--secundary-font);
+    font-size: 1.25rem;
+    color: var(--dark-blue);
+    line-height: 1.75rem;
+    margin: 1.25rem 0 1.75rem
+}
+
+@media screen and (max-width: 1100px) {
+    .post {
+        width: 336px;
+    }
+}
