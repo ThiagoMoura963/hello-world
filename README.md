@@ -36,3 +36,7 @@ Se você deseja executar este projeto localmente, siga estas etapas:
    ```bash
    npm install
    ```
+4. Iniciar o projeto:
+   ```bash
+   npm run dev
+   ```
