@@ -18,7 +18,7 @@ Segue imagens do projeto:
 Este projeto foi construído com as seguintes tecnologias:
 
 - **HTML**: Utilizado para estruturar o conteúdo do blog.
-- **CSS**: Utilizado para estilizar o layout e a aparência do blog.
+- **CSS Module**: Utilizado para estilizar o layout e a aparência do blog.
 - **React**: Utilizado para construir a interface do usuário dinâmica e interativa do blog.
 
 ## Como Executar o Projeto Localmente
