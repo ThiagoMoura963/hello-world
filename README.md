@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Blog "Hello World"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sobre o Projeto
+O Blog "Hello World"! É um projeto desenvolvido com HTML, CSS e React, onde compartilho histórias e conhecimentos sobre linguagens de programação e outros temas relacionados. Os posts são gerados a partir de um arquivo .json.
 
-In the project directory, you can run:
+Segue imagens do projeto:
 
-### `npm start`
+![image](https://github.com/ThiagoMoura963/hello-world/assets/76569184/358e1bd5-56df-4449-a40c-2e0c058039cd)
+![image](https://github.com/ThiagoMoura963/hello-world/assets/76569184/6ce944a1-e4fb-457f-bd16-50e202d9b64d)
+![image](https://github.com/ThiagoMoura963/hello-world/assets/76569184/9b1edb02-ac4f-4188-93c7-710a8b3ce14a)
+![image](https://github.com/ThiagoMoura963/hello-world/assets/76569184/54884f2d-ebac-4d0f-84bc-3a27a919ca56)
+![image](https://github.com/ThiagoMoura963/hello-world/assets/76569184/2160cd5e-c627-4fdd-9465-ca0967874f71)
+![image](https://github.com/ThiagoMoura963/hello-world/assets/76569184/a2601d88-2e4b-417e-b418-4d19d7a6f101)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto foi construído com as seguintes tecnologias:
 
-### `npm test`
+- **HTML**: Utilizado para estruturar o conteúdo do blog.
+- **CSS**: Utilizado para estilizar o layout e a aparência do blog.
+- **React**: Utilizado para construir a interface do usuário dinâmica e interativa do blog.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto Localmente
 
-### `npm run build`
+Se você deseja executar este projeto localmente, siga estas etapas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Certifique-se de ter o Node.js instalado em sua máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Clone este repositório em seu computador:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   https://github.com/ThiagoMoura963/hello-world.git
+   ````
+3. Instale as dependências do projeto:
+   ```bash
+   npm install
+   ```
